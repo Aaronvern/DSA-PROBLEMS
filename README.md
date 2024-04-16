@@ -17,7 +17,7 @@ In this repository, I store my solutions to various Data Structures and Algorith
 
 The repository follows a structured format to organize problems based on categories and concepts. Here's an overview of the folder structure:
 /problems
-    /basics-first
+    /basics
     /arrays
     /linked-lists
     /stacks-and-queues
