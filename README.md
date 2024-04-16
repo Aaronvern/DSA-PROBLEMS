@@ -16,6 +16,20 @@ In this repository, I store my solutions to various Data Structures and Algorith
 ## Folder Structure
 
 The repository follows a structured format to organize problems based on categories and concepts. Here's an overview of the folder structure:
+/problems
+    /basics-first
+    /arrays
+    /linked-lists
+    /stacks-and-queues
+    /trees-and-graphs
+    /sorting-and-searching
+    /dynamic-programming
+    /recursion
+    /hash-tables
+    /greedy-algorithms
+    /backtracking
+    /bit-manipulation
+    /string-manipulation
 
 
 ## Problem Categories
