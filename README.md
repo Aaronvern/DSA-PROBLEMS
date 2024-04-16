@@ -16,6 +16,7 @@ In this repository, I store my solutions to various Data Structures and Algorith
 ## Folder Structure
 
 The repository follows a structured format to organize problems based on categories and concepts. Here's an overview of the folder structure:
+```
 /problems
     /basics
     /arrays
@@ -30,7 +31,7 @@ The repository follows a structured format to organize problems based on categor
     /backtracking
     /bit-manipulation
     /string-manipulation
-
+```
 
 ## Problem Categories
 
