@@ -173,3 +173,60 @@ int main() {
 }
 
 ```
+
+### pattern 6
+```
+1
+01
+101
+0101
+10101
+
+#include <iostream>
+using namespace std;
+int main() {
+    int i,j,n;
+    cin>>n;
+    int start =1;
+    for(i=0;i<n;i++){
+        if(i % 2 ==0)start=1;
+        else start=0;
+        for(j=0;j<=i;j++){
+            cout<<start;
+            start=1 - start;
+        }
+    cout<<'\n';
+
+    }
+    return 0;
+}
+```
+### pattern 7
+```
+1        1
+12      21
+123    321
+1234  4321
+
+#include <iostream>
+using namespace std;
+int main() {
+    int i,j,n;
+    cin>>n;
+    int space =2*(n-1);
+    for(i=1;i<n;i++){
+        for(j=1;j<=i;j++){
+          cout<<j;
+        }
+        for(j=0;j<space;j++){
+          cout<<' ';  
+        }
+        for(j=i;j>=1;j--){
+          cout<<j;
+        }
+        cout<<'\n';
+        space -= 2;
+    }
+    return 0;
+}
+```
