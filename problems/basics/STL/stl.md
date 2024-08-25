@@ -528,4 +528,4 @@ int main() {
 ### max_element() in C++ STL:
 
 - **Algorithm:**
-  - `max_element`
+  - `max_element` b 
